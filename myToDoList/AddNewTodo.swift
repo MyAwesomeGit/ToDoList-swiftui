@@ -13,7 +13,6 @@ struct AddToDoView: View {
     @State private var todoDescription: String = ""
     
     var body: some View {
-        
         VStack {
             Text("Create New ToDo").font(.largeTitle)
             
@@ -40,7 +39,6 @@ struct AddToDoView: View {
             newTodoCD.name = name
             newTodoCD.category = categoryTypes[selectedCategory]
             newTodoCD.todoDescription = todoDescription
-            
             do {
                 try viewContext.save()
             }
@@ -55,7 +53,6 @@ struct AddToDoView: View {
             .padding()
             .background(Color.indigo)
             .frame(width: 350, height: 20)
-        
     }
 } 
 

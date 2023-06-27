@@ -8,6 +8,7 @@ Swift App. SwiftUI. To Do List. Core Data.
 * Add ToDo's Description
 * Rearrange Sample ToDo's
 * Delete Your ToDo
+* Complete Your Todo
 * Persist data with Core Data
 
 ## App Image Example
